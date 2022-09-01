@@ -1,4 +1,4 @@
 # Testando Headers
 /*
-  <https://lyon.dev/bg.webp>; rel=preload; as=image
-  <https://lyon.dev/bg-m.webp>; rel=preload; as=image
+  Link: <https://lyon.dev/bg.webp>; rel=preload; as=image
+  Link: <https://lyon.dev/bg-m.webp>; rel=preload; as=image
