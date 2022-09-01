@@ -19,8 +19,13 @@
   <meta property=twitter:card content=summary_large_image />
   <meta property=twitter:image content="https://lyon.dev/bg.jpg" />
   <meta property=twitter:site content="@lyonmuller" />
-  <link rel="preload" href="./bg-m.webp" as="image" />
-  <link rel="preload" href="./bg.webp" as="image" />
+  
+  <link rel="preconnect" href="https://cloudflare.com/" />
+  <link rel="dns-prefetch" href="https://cloudflare.com/" />
+  
+  <link rel="preload" href="https://lyon.dev/bg-m.webp" media="(max-width: 768px)" type="image/webp" as="image" />
+  <link rel="preload" href="https://lyon.dev/bg.webp" media="(min-width: 768px)" type="image/webp" as="image" />
+  
   <title>Lyon.dev | Web Development</title>
   <style>
     * {
